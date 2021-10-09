@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-hotel-management/static/css/main.aef0bfac.chunk.css",
+    "main.js": "/react-hotel-management/static/js/main.044a751b.chunk.js",
+    "main.js.map": "/react-hotel-management/static/js/main.044a751b.chunk.js.map",
+    "runtime-main.js": "/react-hotel-management/static/js/runtime-main.a6888c69.js",
+    "runtime-main.js.map": "/react-hotel-management/static/js/runtime-main.a6888c69.js.map",
+    "static/js/2.2b3aac9e.chunk.js": "/react-hotel-management/static/js/2.2b3aac9e.chunk.js",
+    "static/js/2.2b3aac9e.chunk.js.map": "/react-hotel-management/static/js/2.2b3aac9e.chunk.js.map",
+    "index.html": "/react-hotel-management/index.html",
+    "static/css/main.aef0bfac.chunk.css.map": "/react-hotel-management/static/css/main.aef0bfac.chunk.css.map",
+    "static/js/2.2b3aac9e.chunk.js.LICENSE.txt": "/react-hotel-management/static/js/2.2b3aac9e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6888c69.js",
+    "static/js/2.2b3aac9e.chunk.js",
+    "static/css/main.aef0bfac.chunk.css",
+    "static/js/main.044a751b.chunk.js"
+  ]
+}
