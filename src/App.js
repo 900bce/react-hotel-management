@@ -1,25 +1,31 @@
-import logo from './logo.svg';
+import React from 'react';
+import styled from 'styled-components';
+import Sidebar from './components/Sidebar';
+import Content from './components/Content';
+import { RoomProvider } from './contexts/RoomContext';
 import './App.css';
 
-function App() {
+function HotelManagement() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <RoomProvider>
+      <Container>
+        <Sidebar />
+        <Content />
+      </Container>
+    </RoomProvider>
   );
 }
 
-export default App;
+const Container = styled.div`
+  display: flex;
+  margin: 0 2rem;
+  color: #333;
+
+  .header {
+    font-size: 3rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid rgb(220, 220, 220);
+  }
+`;
+
+export default HotelManagement;
